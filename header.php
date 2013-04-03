@@ -8,15 +8,17 @@
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name="description" content="How to generate keywords for conducting research.">
 <meta name="keywords" content="instruction services keywords research">
-<meta name="maintainer" content="INSERT MAINTAINER HERE">
-<meta name="package" content="instruction">
-
-<?php
-include('2nd-header.php');
-
-$location='';
-
-?>
 
 <link href="keywords.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 
+<script type="text/javascript">
+jQuery(document).ready(function() {
+  jQuery(".toggle_content").hide();
+  //toggle the componenet with class msg_body
+  jQuery(".toggle_label").click(function()
+  {
+    jQuery(this).next(".toggle_content").slideToggle(500);
+  });
+});
+</script>
