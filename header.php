@@ -10,7 +10,7 @@
 <meta name="keywords" content="instruction services keywords research">
 
 <link href="keywords.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function() {
