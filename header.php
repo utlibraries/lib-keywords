@@ -14,7 +14,7 @@
 <?php
 include('2nd-header.php');
 
-$location='<a href="/students">For Undergraduates</a> > <a href="/students/find/">How to</a> > <a href="index.php">Generate Keywords</a> ';
+$location='';
 
 ?>
 
