@@ -12,6 +12,8 @@
 <link href="keywords.css" rel="stylesheet" type="text/css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+<!--Add extra header tags here-->
+
 <script type="text/javascript">
 jQuery(document).ready(function() {
   jQuery(".toggle_content").hide();
@@ -22,3 +24,4 @@ jQuery(document).ready(function() {
   });
 });
 </script>
+

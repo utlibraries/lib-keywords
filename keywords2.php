@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<!--Add institutional branding here-->
+
 <?php
 
 //Variables
@@ -21,7 +23,7 @@ $keywords = $_POST['keyword'];
 
 $concept_id = $_POST['concept_id'] ;
 if (!is_numeric($concept_id)) {
-	failure($errmsg['invalidinputs'], $location);
+	failure($errmsg['invalidinputs']);
 }
 
 $old_keywords = get_concept_keywords($concept_id)  ;
@@ -33,12 +35,12 @@ if ( (isset($old_keywords)) && !(empty($old_keywords)) ) {
 
 $topic_id = $_POST['topic_id'] ;
 if (!is_numeric($topic_id)) {
-	failure($errmsg['invalidinputs'], $location);
+	failure($errmsg['invalidinputs']);
 }
 
 $current = $_POST['current'];
 if (!is_numeric($current)) {
-	failure($errmsg['invalidinputs'], $location);
+	failure($errmsg['invalidinputs']);
 }
 
 foreach ($keywords as $key => $value) {

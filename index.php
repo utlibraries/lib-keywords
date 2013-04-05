@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<!--Add institutional branding here-->
+
 <h2>How to Generate Keywords</h2>
 
 <h3>Create a Research Topic</h3>

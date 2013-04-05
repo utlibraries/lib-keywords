@@ -10,6 +10,8 @@
 </head>
 <body>
 
+<!--Add institutional branding here-->
+
 <?php
 
 //Variables
