@@ -161,22 +161,25 @@ foreach ($search_key as $key => $value) {
 ?>
 
 </blockquote>
+<!-- ENTER PATH TO YOUR OWN SEARCH ENGINE SCRIPT OR REMOVE THIS SECTION IF YOU DON'T HAVE ONE WILL HAVE TO EDIT THE OPTIONS AND VALUES DEPENDING ON WHAT YOUR DATABASES USE [CHANGES REQUIRED] -->
+
 
 <h3>Automatically search with your keywords. </h3>
 <p>Getting too many results when you search?  In the Catalog or database, remove some of the keywords you brainstormed for each concept.</p>
-<form action="http://www.lib.utexas.edu/phpsearchbox.html" method="post" target="_blank">
+<form action="[PATH TO SEARCH ENGINE SCRIPT]" method="post" target="_blank">
         <p><label for="kwquery">
         SEARCH: </label><label for="kwengine" id="searcharea">choose an area to search</label>
         <select name="engine" size="1" id="kwengine" title="choose an area to search" style="width:300px;">
-          <option selected="selected" value="iiikw">Library Catalog for books</option>
-          <option value="acadsearchcomp">Academic Search Complete  for newspaper, magazine, and scholarly journal articles</option>
-          <option value="jstor">JSTOR for scholarly journal articles</option>
+          <option selected="selected" value="[OPTION 1]">Library Catalog for books</option>
+          <option value="[OPTION 2]">Academic Search Complete  for newspaper, magazine, and scholarly journal articles</option>
+          <option value="[OPTION 3]">JSTOR for scholarly journal articles</option>
 
         </select><br /><br />
         <textarea cols="40" rows="5" name="query" id="kwquery" readonly /><?php echo "$fullsearch" ; ?></textarea>
         <input type="submit" id="GO" value="GO" /></p>
       </form>
 
+<!-- REMOVE ABOVE SECTION IF YOU DON'T HAVE A WAY TO CONNECT TO YOUR DATABASE SEARCH ENGINE SCRIPT -->
 
 <p>&nbsp;</p>
 
